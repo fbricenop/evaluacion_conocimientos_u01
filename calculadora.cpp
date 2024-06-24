@@ -30,7 +30,12 @@ int main(){
 			case 4:{
 				cout<<"INGRESE LOS DOS NUMEROS: "<<endl;
 				cin>>n1>>n2;
-				cout<<"LA DIVISION DE LOS DOS NUMEROS ES: "<<endl<<n1/n2<<endl;
+				if(n1>=0 and n2>0){
+					cout<<"LA DIVISION DE LOS DOS NUMEROS ES: "<<endl<<n1/n2<<endl;
+				}else if(n2==0){
+					cout<<"DIVISION ENTRE CERO NO ES POSIBLE"<<endl;
+				}
+				
 				break;
 			}
 		}
