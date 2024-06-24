@@ -11,9 +11,9 @@ int main(){
 		comprobacion(n1,n2);
 	}
 	if(comprobacion(n1,n2)==1){
-		cout<<"SON PESI";
+		cout<<"SON PESI.";
 	}else{
-		cout<<"NO SON PESI";	
+		cout<<"NO SON PESI.";	
 	}
 
 	return 0;
