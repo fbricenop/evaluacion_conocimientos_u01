@@ -6,10 +6,10 @@ int main(){
 	int op=0;
 
 	do{
-		cout<<"INGRESE LOS DOS NUMEROS: "<<endl;
-		cin>>n1>>n2;
 		cout<<"ESCRIBA EL NUMERO DE LA OPERACION A REALIZAR: "<<endl<<"0)SALIR \n1)SUMA \n2)RESTA \n3)MULTIPLICACION \n4)DIVISION"<<endl;
 		cin>>op;
+		cout<<"INGRESE LOS DOS NUMEROS: "<<endl;
+		cin>>n1>>n2;
 		switch(op){
 			case 1:{
 				cout<<"LA SUMA DE LOS DOS NUMEROS ES: "<<endl<<n1+n2<<endl;
@@ -24,6 +24,7 @@ int main(){
 				break;
 			}
 			case 4:{
+				
 				cout<<"LA DIVISION DE LOS DOS NUMEROS ES: "<<endl<<n1/n2<<endl;
 				break;
 			}
